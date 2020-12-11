@@ -101,3 +101,16 @@ for (let i = 0; i < meals.length; i++) {
 }
 
 //let nama = { fistName = 'aoyii', lastname = 'aihara', age = '17' };
+
+//array & object executions
+// object
+let breakfast = {
+    morning: "pancake",
+    with: "green tea",
+    and: "milk"
+};
+breakfast // let things = ['laptop', 'buku', 'penghapus', 'pen', 'earphone'];
+
+// function remember() {
+//     things.push('book');
+// };
