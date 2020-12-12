@@ -109,8 +109,12 @@ let breakfast = {
     with: "green tea",
     and: "milk"
 };
-breakfast // let things = ['laptop', 'buku', 'penghapus', 'pen', 'earphone'];
+breakfast.morning
+
+// let things = ['laptop', 'buku', 'penghapus', 'pen', 'earphone'];
 
 // function remember() {
 //     things.push('book');
 // };
+
+its actually, im stuck, thankyou: )
