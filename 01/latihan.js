@@ -117,4 +117,25 @@ breakfast.morning
 //     things.push('book');
 // };
 
-its actually, im stuck, thankyou: )
+
+// class cat {
+//     constructor(name, color) {
+//         this.name = name;
+//         this.color = color;
+//     }
+// };
+// let catA = new cat('cath', )
+
+// function perkalian(a, b) {
+//     return a * b
+// };
+// perkalian(4, 5);
+
+// const listask = ["study", "game", "eat"];
+// listask.push = []
+
+let User = class {
+    sayHi() {
+        alert("ohayok");
+    }
+};
