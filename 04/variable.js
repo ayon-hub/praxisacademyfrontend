@@ -19,3 +19,21 @@ console.log(newUpdatedhobbiesES5);
 //immutable array (es6 using spread operator)
 var newUpdatedhobbiesES6 = [...hobbies, "snacking"];
 console.log(newUpdatedhobbiesES6); //[reading,coding,gaming];
+
+//mutable objects
+var talent = { name: "usagi", age: 17 };
+talent.age = 19;
+console.log(talent); //{name : "usagi",age=19};
+
+//immutable object (ES5 using Object.assign) object with capital O;
+var student = { name: "ara", class: 7 };
+const updateStudent = Object.assign({}, student, { age: 9 });
+
+console.log(student);
+console.log(updateStudent);
+
+//immutable object using spread operator (ES6); tidak  merubah value
+const updateStudentSE6 = {...student, age: 17 };
+
+console.log(student);
+console.log(updateStudent);
