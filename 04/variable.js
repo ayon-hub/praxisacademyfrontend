@@ -1,3 +1,7 @@
+//ES = Ecma Script is browser standard and today is reach ES11 already, but most of website builder still use ES6,
+//the caused is reasonable as the way developer still using the most stable version.
+
+
 //mutable variable
 var justnumber = 6;
 justnumber = 7;
